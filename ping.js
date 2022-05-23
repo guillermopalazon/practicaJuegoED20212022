@@ -9,7 +9,7 @@ var ctx = canvas.getContext("2d");
 
 var BALL_COLOR = "#5DADE2";
 var PADDLE_COLOR = "#5DADE2";
-var LINE_COLOR = "#48C9B0";
+var LINE_COLOR = "#38C9B0";
 
 var scored = "none";
 var playerScore = 0;
