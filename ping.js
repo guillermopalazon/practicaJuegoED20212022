@@ -182,8 +182,8 @@ var game = {
     },
     gameOver: function () {
         if (!this.alertShown) {
-            writeText("GAME OVER");
-            writeSubText("click to reload");
+            writeText("FIN DEL JUEGO");
+            writeSubText("Haga clic para volver a jugar");
             playSound('gameover');
         }
         this.alertShown = true;
