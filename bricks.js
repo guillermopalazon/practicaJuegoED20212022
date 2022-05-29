@@ -174,8 +174,8 @@ var game = {
 	},
 	gameOver: function () {
         if (!this.alertShown) {
-            writeText("GAME OVER");
-            writeSubText("click to reload");
+            writeText("JUEGO TERMINADO");
+            writeSubText("pincha para volver a empezar");
             playSound('gameover');
         }
         this.alertShown = true;
