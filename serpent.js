@@ -4,13 +4,15 @@
 	MIT License
 */
 
+//En serpent.js cambiar los colores de FOOD(comida), BORDER(borde), TAIL(cola) Y STROKE (cuerpo, trazo) (líneas 10, 11, 12 y 13)
+//Puedes buscar en google "codigos de color HTML" para obtener nuevos colores.
 var canvas = document.getElementById("snakeCanvas");
 var ctx = canvas.getContext("2d");
 
-var FOOD_COLOR = "#23432b";
-var BORDER_COLOR = "#23432b";
-var TAIL_COLOR = "#54812c";
-var STROKE_COLOR = "#d1e890";
+var FOOD_COLOR = "#7FFF00";
+var BORDER_COLOR = "#FF0000";
+var TAIL_COLOR = "#00FF7F";
+var STROKE_COLOR = "#00FF7F";
 
 var rect = {
     height: canvas.height - 20,
